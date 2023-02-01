@@ -1,45 +1,13 @@
 .app-wrapper {
   display: grid;
-  height: 100%;
-  width: 100%;
-  grid-template-columns: 1fr 10fr;
-  grid-template-rows: 5% 90% 5%;
+  grid-template-columns: 1fr 11fr;
+  grid-template-rows: 1fr 11fr;
   grid-gap: 20px;
-
   grid-template-areas:
     "h h"
     "n c";
-
   margin: 20px;
-  padding: 40px;
-
+  padding: 35px;
   font-size: 30px;
   background-color: wheat;
-}
-
-.nav {
-  text-decoration: none;
-  grid-area: n;
-  background-color: rgb(230, 189, 115);
-}
-
-.header {
-  width: 1fr;
-  grid-area: h;
-  background-color: rgb(233, 203, 147);
-}
-
-.header > img {
-  max-width: 100px;
-  left: 0;
-  top: 0;
-  background-size: cover;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.content {
-  grid-area: c;
-  background-color: rgb(192, 155, 86);
 }
