@@ -5,7 +5,8 @@ import s from './Profile.modules.css';
 
 const Profile = () => {
     return (
-        <div className={s.content}>
+        <div>
+        
             <div>
                 <img src='https://images.unsplash.com/photo-1664023937999-5937f62d0f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2489&q=80' alt='2'></img>
             </div>

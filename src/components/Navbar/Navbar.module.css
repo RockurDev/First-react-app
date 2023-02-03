@@ -1,36 +1,40 @@
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:visited {
-  color: black;
+    color: violet;
 }
 
-/* a:link {
+a:link {
     color: skyblue;
-} */
+}
 
 a:hover {
-  color: white;
+    color: darkblue;
 }
 
 a:active {
-  color: violet;
+    color: violet;
 }
 
-.item.active {
-  background-color: rgb(255, 211, 129);
-  width: 80%;
+.item {
+    background-color: rgb(255, 211, 129);
+    width: 80%;
+}
+
+.active {
+    color: darkblue;
 }
 
 .nav {
-  grid-area: n;
-  background-color: rgb(230, 189, 115);
-  padding: 10px;
-  font-size: 36px;
-  color: darkturquoise;
+    grid-area: n;
+    background-color: rgb(230, 189, 115);
+    padding: 10px;
+    font-size: 36px;
+    color: darkturquoise;
 }
