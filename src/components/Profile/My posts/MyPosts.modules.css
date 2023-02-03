@@ -1,0 +1,17 @@
+img > avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+}
+
+button {
+    width: 50px;
+    height: fit-content;
+    border-radius: 35px;
+    margin: 1em 1em 1em;
+}
+textarea {
+    width: 60%;
+    height: 70px;
+    max-width: 600px;
+}
