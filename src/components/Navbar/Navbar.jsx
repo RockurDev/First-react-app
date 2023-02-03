@@ -7,23 +7,24 @@ const Navbar = () => {
     return (
         <nav className={s.nav}>
             <ul>
-                <li className={`${s.item}`}>
-                    <p><NavLink to='/profile' activeClassName={s.active}>Profile</NavLink></p>
+                <li className={s.item}>
+                    <p><NavLink to="/profile" className={navData => navData.isActive ? s.active : s.item}>Profile</NavLink></p>
+                    {/* <p><NavLink to='/profile'>Profile</NavLink></p> */}
                 </li>
-                <li className={`${s.item}`}>
-                    <p><NavLink to='/dialogs' >Messages</NavLink></p>
+                <li className={s.item}>
+                    <p><NavLink to='/dialogs' className={navData => navData.isActive ? s.active : s.item}>Messages</NavLink></p>
                 </li>
-                <li className={`${s.item}`}>
-                    <p><NavLink to='/news'>News</NavLink></p>
+                <li className={s.item}>
+                    <p><NavLink to='/news' className={navData => navData.isActive ? s.active : s.item}>News</NavLink></p>
                 </li>
-                <li className={`${s.item}`}>
-                    <p><NavLink to='friends'>Friends</NavLink></p>
+                <li className={s.item}>
+                    <p><NavLink to='/friends' className={navData => navData.isActive ? s.active : s.item}>Friends</NavLink></p>
                 </li>
-                <li className={`${s.item}`}>
-                    <p><NavLink to='/music'>Music</NavLink></p>
+                <li className={s.item}>
+                    <p><NavLink to='/music' className={navData => navData.isActive ? s.active : s.item}>Music</NavLink></p>
                 </li>
-                <li className={`${s.item}`}>
-                    <p><NavLink to='/settings'>Settings</NavLink></p>
+                <li className={s.item}>
+                    <p><NavLink to='/settings' className={navData => navData.isActive ? s.active : s.item}>Settings</NavLink></p>
                 </li>
             </ul>
         </nav>)

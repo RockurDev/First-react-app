@@ -6,7 +6,8 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+a:visited,
+a:active{
     color: violet;
 }
 
@@ -18,14 +19,15 @@ a:hover {
     color: darkblue;
 }
 
-a:active {
-    color: violet;
-}
 
 .item {
     background-color: rgb(255, 211, 129);
     width: 80%;
 }
+
+.item a.active {
+    color: rgb(49, 43, 9);
+  }
 
 .active {
     color: darkblue;
