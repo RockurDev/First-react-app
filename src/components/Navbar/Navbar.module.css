@@ -11,32 +11,22 @@ a:active{
     color: violet;
 }
 
-a:link {
-    color: skyblue;
-}
-
 a:hover {
-    color: darkblue;
-}
-
-
-.item {
-    background-color: rgb(255, 211, 129);
-    width: 80%;
+    color: darkviolet;
 }
 
 .item a.active {
-    color: rgb(49, 43, 9);
-  }
+    color: rgb(100, 3, 141);
+}
 
-.active {
-    color: darkblue;
+.item {
+    background-color: rgb(255, 211, 129);
 }
 
 .nav {
     grid-area: n;
     background-color: rgb(230, 189, 115);
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 36px;
     color: darkturquoise;
 }

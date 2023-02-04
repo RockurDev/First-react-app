@@ -1,17 +1,22 @@
 .app-wrapper {
   display: grid;
   grid-template-columns: 1fr 11fr;
-  grid-template-rows: 1fr 11fr;
-  grid-gap: 20px;
+  grid-gap: 16px;
   grid-template-areas:
     "h h"
     "n c";
-  margin: 20px;
   padding: 35px;
   font-size: 30px;
   background-color: wheat;
 }
 
-.active {
-    color: green;
+header img {
+    width: 180px;;
+    border-radius: 90px;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: rgb(253, 236, 207);
+  padding: 20px;
 }

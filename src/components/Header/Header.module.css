@@ -1,10 +1,6 @@
 .header {
     grid-area: h;
     background-color: rgb(233, 203, 147);
-    /* width: 1fr; */
-    /* height: fit-content; */
 }
 
-.header > img {
-    max-width: 100px;
-}
+
