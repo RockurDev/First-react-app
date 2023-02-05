@@ -9,7 +9,6 @@ const Navbar = () => {
             <ul>
                 <li className={s.item}>
                     <p><NavLink to="/profile" className={navData => navData.isActive ? s.active : s.item}>Profile</NavLink></p>
-                    {/* <p><NavLink to='/profile'>Profile</NavLink></p> */}
                 </li>
                 <li className={s.item}>
                     <p><NavLink to='/dialogs' className={navData => navData.isActive ? s.active : s.item}>Messages</NavLink></p>
