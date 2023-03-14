@@ -1,0 +1,23 @@
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 45px;
+    margin: 1em 1em 1em;
+}
+
+textarea {
+    width: 60%;
+    height: 70px;
+    max-width: 800px;
+    padding: 5px;
+    font-size: 28px;
+}
+
+.posts img {
+    width: 10px;
+    border-radius: 90px;
+}
+
+.postBlock {
+    padding: 10px;
+}

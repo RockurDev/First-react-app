@@ -1,0 +1,32 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited,
+a:active{
+    color: violet;
+}
+
+a:hover {
+    color: darkviolet;
+}
+
+.item a.active {
+    color: rgb(100, 3, 141);
+}
+
+.item {
+    background-color: rgb(255, 211, 129);
+}
+
+.nav {
+    grid-area: n;
+    background-color: rgb(230, 189, 115);
+    /* padding: 10px; */
+    font-size: 36px;
+    color: darkturquoise;
+}
